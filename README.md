@@ -1,7 +1,9 @@
 
-# CRANKS 1.0 - README
+CRANKS 1.0 - README
+===================
 
-## ABOUT CRANKS
+ABOUT CRANKS
+------------
 
 CRANKS is an Java application that uses the Swing toolkit to provide an interactive environment for the animation and kinematic synthesis of four-bar mechanisms created through a series of geometrical constructions.
 
@@ -11,7 +13,8 @@ Hence, there is a need for automating this process using the computer and thereb
 
 CRANKS is a program written entirely in Java and uses the Swing toolkit to provide the GUI. It was written using JDK 1.5.0 and is compatible with all later versions. It is platform independent, requiring only the Java Virtual Machine (compatible with versions 1.5.0 or higher) in order to execute. The binary release contains the compiled code distributed as a single JAR file executable, which may be used to run the application. It may also be used in conjunction with the corresponding HTML file to run the program as an applet, thereby giving additional security by preventing the program from interacting with the client computer's file system. The applet version is also intended as a demonstration tool, especially for use online.
 
-##  FEATURES - version 1.0
+FEATURES - version 1.0
+----------------------
 
 * Animation and synthesis of four bar mechanisms
 * Provides a CAD interface for performing most simple constructions required for the synthesis of mechanisms
@@ -24,15 +27,17 @@ CRANKS is a program written entirely in Java and uses the Swing toolkit to provi
 * Open/Save construction procedures for future reference and repetition (not available in applet mode)
 * Print capability (not available in applet mode)
 
-## LICENSE
+LICENSE
+-------
 
 CRANKS is free software, and you are welcome to redistribute and modify it under the terms of the GNU General Public License (either version 2 or any later version). For details, please see the file COPYING located in the installation directory.
 
-## INSTALLATION
+INSTALLATION
+------------
 
 The installation procedure that you need to follow depends on the type of distribution that you have downloaded. You may identify the distribution type from the name of the downloaded compressed file.
 
-### Binary Files Package (cranks_XXX_binary.zip or cranks_XXX_binary.tar.gz):
+Binary Files Package (cranks_XXX_binary.zip or cranks_XXX_binary.tar.gz):
 
 This package unpacks to yield a folder "cranks", which contains the binary files necessary for running the program. The package contents are :
 * Folder "bin" containing one file "CRANKS.jar", which is the executable JAR file used to run the application
@@ -48,7 +53,7 @@ You will need:
 
 Installation is as simple as merely unpacking the compressed package, as it already contains pre-compiled files. Use any common unzip or tar utility to decompress the files and start working right away!
 
-### Source Files Package (cranks_XXX_source.zip or cranks_XXX_source.tar.gz):
+Source Files Package (cranks_XXX_source.zip or cranks_XXX_source.tar.gz):
 
 This package contains the source files which need to be compiled in order to produce the executable binaries. The package contents are :
 * Folder "lib" containing one file "jdic.jar", which is a compiled library used by CRANKS. See Libraries below for details
@@ -76,13 +81,15 @@ Note: Do NOT rename or change the location of any of the files/folders in the ba
 
 Note: Since I use Sun's [NetBeans IDE](http://www.netbeans.org) to edit my Java projects, I have created source packages directly from my NetBeans project folder. This means that after unzipping the package, you can directly open it as a project under Netbeans and use all the shortcuts for compiling, building, etc. Again, just as above, please take care when renaming/restructuring files if you want to ensure this compatibility with NetBeans.
 
-## LIBRARIES
+LIBRARIES
+---------
 
 CRANKS bundles the following libraries:
 
 * jdic.jar : JDesktop Integration Components ([JDIC](http://jdic.dev.java.net/)) is a open-source library that is released by the 'GNU Lesser General Public License. CRANKS bundles the version 0.9 binary file in order to allow CRANKS to open your default browser to navigate web links.
 
-## USING CRANKS
+USING CRANKS
+------------
 
 This is a brief description of the functions of this program and will be replaced by more detailed documentation at a later stage. You can run CRANKS as an application or as an applet. You can access the program in the application mode by running "CRANKS.jar" in the bin folder. The program starts in applet mode if the "CRANKS.html" file is opened. However, it is recommended that you use the former, since the application mode is more versatile. Although they look similar, you will notice that the File menu is absent in the applet, thereby preventing access to local files on the system. Applets are useful when a user wants to run a program from an online webpage, but wants to maintain security by preventing it from having accesss to local files on his/her computer.
 
