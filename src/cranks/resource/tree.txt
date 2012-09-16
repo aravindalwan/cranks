@@ -1,0 +1,17 @@
+################################################################################
+# Note: do not add blank lines, the data parser in Help.java cannot handle     #
+# them.                                                                        #
+#                                                                              #
+# Key:                                                                         #
+# First line after #'s should indicate maximum number of levels in tree        #
+# Begin any line with # in order to comment it out                             #
+# Provide node url only for leaf nodes					       #
+# Each line should be in the following format (omit brackets):                 #
+#     (Level No:)(comma)(Node description)(comma)(Relative URL w.r.t resource  #
+#      folder)                                                                 #
+# e.g. 1,Drawing lines,help/lines.html   3,Drawing,                            #
+# Remove all spaces at the end of each line                                    #
+#                                                                              #
+################################################################################
+1
+1,Index,help/index.html
